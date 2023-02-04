@@ -1,0 +1,251 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+  div.container{
+    margin-top: 100px;
+    width: 100% !important;
+    background-color: antiquewhite; 
+    align-items: center;
+  }
+  @media (min-width: 1400px){
+    .container {
+      max-width: 1600px !important;
+  }
+}
+@media (min-width: 1200px){}
+.container {
+    max-width: 1289px;
+}
+div.header{
+  margin-top: 58px;
+}
+
+div#root {
+  height: 100%;
+  width: 100%;
+  margin-top: -101px;
+}
+
+div.container-1 {
+    margin-top: -186px;
+    height: 666px;
+    width: 1300px;
+}
+div.content-tabs {
+  height: 572px;
+  display: flex;
+}
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background: #f1f1f1;
+    justify-content: center;
+    margin: 100px auto 0;
+    word-break: break-all;
+    box-shadow:  0px 10px 29px 16px lightgrey;
+    margin-top: 30px;
+  }
+  .bloc-tabs {
+  display: flex;
+  }
+  button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    margin-left: 1500px;
+    margin-top: 15px;
+}
+  .tabs {
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    background-color: #1f70bd;
+    cursor: pointer;
+    position: relative, fixed;
+    outline: none;
+    font-size:30px ;
+    color: #f1f1f1;
+    border-right: 4px solid white;
+  }
+  .tabs:not(:last-child){
+    border-bottom:1px solid rgba(0, 0, 0, 0.274) ;
+  }
+  .active-tabs  {
+    background: white;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  button {
+    border: none; 
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+.C-1{
+    width: 600px;
+    height: 406px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.C-3{
+   width: 600px;
+   margin-top: -20px;
+
+    height: 300px;
+}
+h1{
+    color: #1f70bd;
+    font-family: 'Open Sans', sans-serif;
+    width: 1300px;
+    margin-top: -9px;
+    height: 64px;
+    margin-left: 132px;
+    font-size: 45px; 
+}
+h3{
+  color:  #1f70bd;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px; 
+}
+h3.h3 {
+  font-size: 40px;
+  margin-top: 40px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  opacity: .3;
+}
+svg {
+  font-size: 70px;
+}
+
+p.lead {
+  font-size: 22px;
+  margin-top: 20px;
+  display: inline;
+}
+.d-flex {
+    display: flex;
+}
+HomeIcon{
+  color: grey;
+
+  font-size: 100px;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-colorDisabled.MuiSvgIcon-fontSizeLarge.css-98g8xu-MuiSvgIcon-root {
+  float: right;
+    margin-top: -118px;
+    margin-right: -114px;
+  font-size: 43px;
+  
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeXxl-large.css-821wyw-MuiSvgIcon-root{
+  margin-left: 1232px;
+  margin-top: -100px;
+  font-size: 80px;
+}
+.container-2{
+  display: grid;
+  height: 1009px;
+}
+
+
+/* ---------------------------------------------------SearchComp CSS-------------------------------------------------- */
+
+
+.container-3{
+  width: 100%;
+  height:100% ;
+}
+
+.container-5{
+  height: 1009px;
+  width: 1600px;
+  background:linear-gradient(to bottom, rgb(28, 28, 100), rgb(4, 4, 94));
+  margin: 100px auto 0;
+
+}
+.container-4 {
+  width: 1456px;
+  height: 717px;
+  background: #f1f1f1;
+  margin-left: 71px;
+  display: grid;
+}
+h2{
+    float: right;
+    margin-right: 47px;
+    margin-top: 40px;
+    
+}
+@media (min-width: 1200px){
+  .h2, h2 {
+    font-size: 2rem;
+    margin-top: 27px;
+}
+}
+p.p1 {
+  color: #f8f9fa;
+  margin-left: 69px;
+  opacity: 0.6;
+  font-size: 26px;
+  margin-top: -23px;
+}
+.container-6{
+  justify-content: center;
+ 
+    height: 200px;
+    width: 1350px;
+    margin-left: 41px;
+    margin-top: 40px;
+}
+.container-7{
+  justify-content: center;
+ 
+    height: 200px;
+    width: 1350px;
+    margin-left: 41px;
+    margin-top: -31px;
+}
+.container-8{
+  justify-content: center;
+ 
+    height: 200px;
+    width: 1350px;
+    margin-left: 41px;
+    margin-top: -32px;
+}
+img.C-2 {
+  height: 230px;
+  margin-top: -27px;
+    padding: 22px;
+}
+p.e.lead {
+  margin-top: -10px;
+  opacity: 0.9;
+}
+h5.text {
+  font-size: 23px;
+  color: rgb(28, 28, 100);
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  font-size: 47px;
+  margin-top: -28px;
+  color: rgb(28, 28, 100);
+}
+div.container-9 {
+  margin-left: 865px;
+}
+

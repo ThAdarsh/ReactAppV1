@@ -1,0 +1,57 @@
+
+.container-15{
+    width: 100%;
+    height: 100%;
+  }
+  .container-16{
+    width: 1600px;
+    height: 1009px;
+    margin: 100px auto 0;
+  }
+  .container-17{
+    justify-content: center;
+    width: 800px;
+    height: 800px;
+    background-color: #f8e5cd;
+    border-radius: 0% 36% 100% 36% / 0% 54% 79% 12% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .container-18{
+    justify-content: center;
+    width: 800px;
+    height: 1009px;
+    margin-left: 0px;
+  }
+  .container-19{
+    width: 500px;
+    height: 600px;
+    margin-left: 142px;
+    margin-top: 100px;
+    font-size: xxx-large;
+    display: grid;
+  }
+  
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    margin-top: -2px;
+    color: #dee2e6;
+    float: right;
+    margin-left: 232px;
+    font-size: 60px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    margin-left: 147px;
+    font-size: x-large;
+    
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    margin-top: -2px;
+    color: #dee2e6;
+    float: right;
+    margin-left: 232px;
+    font-size: 40px;
+}
+a{
+  font-size: 30px;
+}
