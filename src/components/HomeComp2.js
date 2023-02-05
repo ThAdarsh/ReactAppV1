@@ -23,7 +23,7 @@ const HomeComp2 = () => {
              <hr/>
              <button ><NavLink className='module-btn' to="/ModTab3">Module Three</NavLink></button>
              <hr/>
-             <button ><NavLink className='module-btn' to="ModTab4">Module Four</NavLink></button>
+             <button ><NavLink className='module-btn' to="/ModTab4">Module Four</NavLink></button>
              <hr/>
              <button ><NavLink className='module-btn' to="/ModTab5">Module Five</NavLink></button>
              <div className='mt-5'></div>

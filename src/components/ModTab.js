@@ -9,11 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
 import { NavLink } from 'react-router-dom';
 
-
 const ModTab = () => {
     const [toggleState, setToggleState] = useState(1);
-    
-
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -23,7 +20,7 @@ const ModTab = () => {
     <div className='container'>
       <div className='container-2'>
         <div className='header'>
-        <h1>Module One <NavLink to="/SearchComp">< SearchIcon fontSize='xxl-large'/></NavLink><NavLink to="/HomeComp2"><HomeIcon color='disabled' fontSize='large' /></NavLink></h1>
+        <h1>Module One <NavLink to="/SearchComp">< SearchIcon className='seachIconProp' fontSize='xxl-large'/></NavLink><NavLink to="/HomeComp2"><HomeIcon color='disabled' fontSize='large' /></NavLink></h1>
         
         </div>
         <div className="container-1">

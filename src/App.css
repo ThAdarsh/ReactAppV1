@@ -24,7 +24,7 @@ html {
     max-width: 1289px;
 } */
 div.header{
-  margin-top: 58px;
+  margin-top: 98px;
 }
 
 div#root {
@@ -157,6 +157,7 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeXxl-large.css-821wyw-MuiSvgIcon-root{
 .container-2{
   display: grid;
   height: 1009px;
+  margin-top: 5rem !important;
 }
 
 
@@ -262,4 +263,7 @@ div.container-9 {
 }
 .homeIcon {
   color: darkgrey !important;
+}
+.seachIconProp {
+  color: grey !important;
 }
