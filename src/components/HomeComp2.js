@@ -7,7 +7,7 @@ import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import { NavLink } from 'react-router-dom';
 const HomeComp2 = () => {
   return (
-    <div className='container-fluid py-5'>
+    <div className='container py-5'>
     <div className='row py-5'>
     <div className='col-md-8'>
       <img src = {homepage} className='main-logo'/>

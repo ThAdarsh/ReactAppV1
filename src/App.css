@@ -19,12 +19,13 @@ html {
       max-width: 1600px !important;
   }
 }
-@media (min-width: 1200px){}
-.container {
-    max-width: 1289px;
-} */
+*/
+@media (max-width: 1402px){}
+.h1 {
+   margin-top: 10px;
+} 
 div.header{
-  margin-top: 98px;
+  margin-top: 100px;
 }
 
 div#root {
@@ -34,7 +35,7 @@ div#root {
 }
 
 div.container-1 {
-    margin-top: -186px;
+    margin-top: -127px;
     height: 666px;
     width: 1300px;
 }
@@ -109,7 +110,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     margin-top: -9px;
     height: 64px;
-    margin-left: 132px;
+    margin-left: 10px;
     font-size: 45px; 
 }
 h3{
