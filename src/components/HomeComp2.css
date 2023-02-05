@@ -40,18 +40,32 @@
     margin-left: 232px;
     font-size: 60px;
 }
-button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root {
-    margin-left: 147px;
-    font-size: x-large;
-    
-}
+
 svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
     margin-top: -2px;
-    color: #dee2e6;
+    color: #8a939c;
     float: right;
     margin-left: 232px;
     font-size: 40px;
 }
 a{
   font-size: 30px;
+  width: 50px;
+  color: white !important;
+}
+.modules-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.module-btn{
+color: #075eaf !important;
+text-decoration: none !important;
+font-size: 22px !important;
+font-family: sans-serif;
+font-weight: 500;
+}
+
+button {
+  text-align: start ;
+  background-color: white;
 }

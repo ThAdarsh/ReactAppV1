@@ -2,14 +2,13 @@
 body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     -webkit-text-size-adjust: 100%;
 }
 html {
   height: 100%;
   width: 100%;
 }
-  div.container{
+  /* div.container{
     margin-top: 100px;
     width: 100% !important;
     background-color: antiquewhite; 
@@ -23,7 +22,7 @@ html {
 @media (min-width: 1200px){}
 .container {
     max-width: 1289px;
-}
+} */
 div.header{
   margin-top: 58px;
 }
@@ -108,7 +107,6 @@ div.content-tabs {
 h1{
     color: #1f70bd;
     font-family: 'Open Sans', sans-serif;
-    width: 1300px;
     margin-top: -9px;
     height: 64px;
     margin-left: 132px;
@@ -249,3 +247,19 @@ div.container-9 {
   margin-left: 865px;
 }
 
+.main-heading {
+  font-weight: 700;
+}
+.loadModulesButton {
+  border-radius: 30px;
+  background: #05437e;
+  padding: 11px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: -webkit-fill-available;
+  font-weight: bold;
+}
+.homeIcon {
+  color: darkgrey !important;
+}

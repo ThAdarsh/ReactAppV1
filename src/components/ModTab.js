@@ -9,8 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
 import { NavLink } from 'react-router-dom';
 
+
 const ModTab = () => {
     const [toggleState, setToggleState] = useState(1);
+    
 
   const toggleTab = (index) => {
     setToggleState(index);
