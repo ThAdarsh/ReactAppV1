@@ -19,7 +19,7 @@ const ModTab4 = () => {
     <div className='container'>
     <div className='container-2'>
       <div className='header'>
-      <h1>Module Four <NavLink to="/SearchComp">< SearchIcon fontSize='xxl-large'/></NavLink><NavLink to="/HomeComp2"><HomeIcon color='disabled' fontSize='large' /></NavLink></h1>
+      <h1>Module Four <NavLink to="/SearchComp">< SearchIcon className='seachIconProp' fontSize='xxl-large'/></NavLink><NavLink to="/HomeComp2"><HomeIcon color='disabled' fontSize='large' /></NavLink></h1>
       
       </div>
       <div className="container-1">
